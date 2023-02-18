@@ -1,0 +1,38 @@
+.nav-parent{
+    background: #22687E;
+}
+
+.active {
+    font-weight: bold !important;
+    color: #fff !important;
+  }
+
+nav{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo img{
+    height: 60px;
+}
+
+/* .links{
+    display: flex;
+} */
+
+.links ul{
+    display: flex;
+    list-style: none;
+}
+
+.links ul .notActive{
+    text-decoration: none;
+    color: #f1d0d0;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0px 14px;
+}
+
