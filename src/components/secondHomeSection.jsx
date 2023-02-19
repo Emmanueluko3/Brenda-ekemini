@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/home.css";
-import Button from "./button";
+// import Button from "./button";
 import Input from "./input";
 
 function Hsec2() {
@@ -40,9 +40,9 @@ function Hsec2() {
           <div className="input">
             <Input type="text" placeholder="Max. Price" />
           </div>
-           <div className="input">
-          <Button type="submit" placeholder="Search" />
-           </div>
+          <div className="input">
+            {/* <Button type="submit" placeholder="Search" /> */}
+          </div>
         </form>
       </div>
     </>

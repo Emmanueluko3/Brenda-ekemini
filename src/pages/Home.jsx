@@ -4,7 +4,7 @@ import Hsec2 from "../components/secondHomeSection";
 import "../styles/home.css";
 import News from "../assets/images/news.png";
 // import Input from "../components/input";
-import Button from "../components/button";
+// import Button from "../components/button";
 
 function Home() {
   return (
@@ -25,7 +25,7 @@ function Home() {
         </div>
       </div>
       <div className="Hsec2">
-          <Hsec2  />
+        <Hsec2 />
       </div>
 
       {/* feartured Properties */}
@@ -45,12 +45,14 @@ function Home() {
           <p>Keep always update on latest topics</p>
 
           <div className="news-cards">
-
             <div className="news-card">
               <img src={News} alt="News" />
               <div className="news-card-body">
                 <h4>Skills That You Can Learn In The Real Estate Market</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis et sem sed sollicitudin. Donec...</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  mollis et sem sed sollicitudin. Donec...
+                </p>
                 <h3>Continue reading...</h3>
                 <div className="news-card-price">
                   <h5>Feb 9, 2023</h5>
@@ -63,7 +65,10 @@ function Home() {
               <img src={News} alt="News" />
               <div className="news-card-body">
                 <h4>Skills That You Can Learn In The Real Estate Market</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis et sem sed sollicitudin. Donec...</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  mollis et sem sed sollicitudin. Donec...
+                </p>
                 <h3>Continue reading...</h3>
                 <div className="news-card-price">
                   <h5>Feb 9, 2023</h5>
@@ -76,7 +81,10 @@ function Home() {
               <img src={News} alt="News" />
               <div className="news-card-body">
                 <h4>Skills That You Can Learn In The Real Estate Market</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis et sem sed sollicitudin. Donec...</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  mollis et sem sed sollicitudin. Donec...
+                </p>
                 <h3>Continue reading...</h3>
                 <div className="news-card-price">
                   <h5>Feb 9, 2023</h5>
@@ -89,7 +97,10 @@ function Home() {
               <img src={News} alt="News" />
               <div className="news-card-body">
                 <h4>Skills That You Can Learn In The Real Estate Market</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis et sem sed sollicitudin. Donec...</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  mollis et sem sed sollicitudin. Donec...
+                </p>
                 <h3>Continue reading...</h3>
                 <div className="news-card-price">
                   <h5>Feb 9, 2023</h5>
@@ -97,7 +108,6 @@ function Home() {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -106,17 +116,20 @@ function Home() {
       <div className="consult">
         <div className="left">
           <h2>Get A Free Consultation</h2>
-          <p>Help your visitors find the right property by letting them set various search criteria</p>
+          <p>
+            Help your visitors find the right property by letting them set
+            various search criteria
+          </p>
         </div>
 
         <div className="right">
           <form>
             <div className="consult-flex field">
               <div className="input">
-                <input type="text" placeholder="First Name"/>
+                <input type="text" placeholder="First Name" />
               </div>
               <div className="input">
-                <input type="text" placeholder="Last Name"/>
+                <input type="text" placeholder="Last Name" />
               </div>
             </div>
 
@@ -125,11 +138,16 @@ function Home() {
             </div>
 
             <div className="field">
-              <textarea type="textarea" name="message" placeholder="Enter your message here" className="textarea"/>
+              <textarea
+                type="textarea"
+                name="message"
+                placeholder="Enter your message here"
+                className="textarea"
+              />
             </div>
 
             <div className="field btn">
-              <Button type="submit" placeholder="Submit" />
+              {/* <Button type="submit" placeholder="Submit" /> */}
             </div>
           </form>
         </div>
