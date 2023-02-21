@@ -2,9 +2,11 @@ import React, { useEffect, useState } from "react";
 import "../styles/navbar.css";
 import Logo from "../assets/images/citadel.svg";
 import { NavLink } from "react-router-dom";
-import { Placeholder } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
-function Navbar() {
+function Navbarcomponent() {
   const [active, setActive] = useState(null);
   const links = [
     {
@@ -34,15 +36,20 @@ function Navbar() {
   };
   return (
     <div className="nav-parent">
-      <nav>
-        <NavLink to={"/"} className="logo">
-          <img src={Logo} alt="Logo" />
-        </NavLink>
-        <div className="links">
-          <ul>
-            {links.map((link, index) => (
-              <li key={index}>
+      <Navbar expand="md">
+        <Container>
+          <Navbar.Brand href="/">
+            <img src={Logo} className="custom-logo" alt="Logo" />
+          </Navbar.Brand>
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            className="text-white"
+          />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ms-auto">
+              {links.map((link, index) => (
                 <NavLink
+                  key={index}
                   to={link.to}
                   className={
                     active === index ? "notActive active" : "notActive"
@@ -51,33 +58,13 @@ function Navbar() {
                 >
                   {link.placeHolder}
                 </NavLink>
-              </li>
-            ))}
-
-            {/* <li>
-              <NavLink exact to={"/"} activeClassName="active">
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to={"/properties"} activeClassName="active">
-                Properties
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to={"/about"}>About Us</NavLink>
-            </li>
-            <li>
-              <NavLink to={"/blog"}>Blog</NavLink>
-            </li>
-            <li>
-              <NavLink to={"/contact"}>Contact Us</NavLink>
-            </li> */}
-          </ul>
-        </div>
-      </nav>
+              ))}
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </div>
   );
 }
 
-export default Navbar;
+export default Navbarcomponent;

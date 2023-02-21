@@ -3,36 +3,29 @@ import FeaturedPPties from "../components/featuredppties";
 import Hsec2 from "../components/secondHomeSection";
 import "../styles/home.css";
 import News from "../assets/images/news.png";
+import Topslides from "../components/slides";
+import ControlledCarousel from "../components/slides";
 // import Input from "../components/input";
 // import Button from "../components/button";
 
 function Home() {
   return (
     <>
-      <div className="slide">
-        <div className="card">
-          <h2>Luxury family home</h2>
-          <h3>5 Beds - 3 Baths - 3170 Sq Ft</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-            ullam deleniti asperiores laborum nam quo eius tenetur debitis
-            reiciendis. Temporibus incidunt dignissimos accusamus adipisci,
-            ipsum perspiciatis quod iure excepturi nihil.
-          </p>
-          <h3>
-            Price: <span className="price">N50000</span>
-          </h3>
-        </div>
+      <div>
+        <ControlledCarousel />
       </div>
-      <div className="Hsec2">
+
+      <div className="">
         <Hsec2 />
       </div>
 
       {/* feartured Properties */}
       <div className="featured-parent">
-        <div className="Featured">
-          <h2 className="h2">Our Featured Properties</h2>
-          <p>Create property listings with all the features you’d expect</p>
+        <div className="container d-flex flex-column justify-content-center items-center align-items-center">
+          <h2 className="text-center">Our Featured Properties</h2>
+          <p className="text-center">
+            Create property listings with all the features you’d expect
+          </p>
           <FeaturedPPties />
           <button className="load-more">Load More</button>
         </div>

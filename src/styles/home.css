@@ -1,103 +1,3 @@
-.slide{
-    background: linear-gradient(rgba(10, 0, 0, 0.35), rgba(10, 0, 0, 0.35)), url(../assets/images/slide1.svg);
-    height: 90vh;
-    margin-bottom: 60px;
-}
-
-.slide .card{
-    width: 305px;
-    background: #22687E;
-    opacity: 0.71;
-    position: absolute;
-    height: 320px;
-    left: 16.44%;
-    right: 65.91%;
-    top: 173px;
-    padding: 40px 30px;
-}
-
-.card h2{
-    font-weight: 700;
-    font-size: 30px;
-    color: #fff;
-}
-
-.card h3{
-    font-weight: 700;
-    font-size: 25px;
-    color: #CBB492;
-    margin-top: 40px;
-}
-.card p{
-    margin-top: 17px;
-    font-size: 15px;
-    color: #fff;
-    margin-bottom: 0px;
-}
-.card .price{
-    margin-top: 0px;
-    color: #fff;
-}
-
-/* Home section 2 */
-.section2{
-    width: 70%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 60px;
-}
-
-.section2 h2{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 35px;
-    margin-bottom: -2%;
-}
-
-.section2 p{
-    font-style: normal;
-    font-size: 18px;
-}
-
-.section2 form{
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.section2 form .btn{
-    width: 10% !important;
-    /* display: inline; */
-}
-
-.Hsec2{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.Hsec2 h2{
-    font-size: 50px;
-}
-
-.Hsec2 section{
-    display: flex;
-    align-items: flex-start;
-}
-
-.Hsec2 section .fst{
-    order: 2;
-}
-.Hsec2 section .Sst{
-    order: 1;
-}
-
 /* featured properties */
 
 .featured-parent{
@@ -133,7 +33,7 @@
     flex-wrap: wrap;
 }
 
-.card{
+/* .card{
     height: 100%;
     width: 30%;
     margin: 20px 15px;
@@ -162,7 +62,7 @@
 
 .card .card-price h5{
     color: #22687E;
-}
+} */
 
 .absolute{
     position: relative;
