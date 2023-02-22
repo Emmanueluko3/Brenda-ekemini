@@ -7,6 +7,7 @@ import ControlledCarousel from "../components/slides";
 import Card from "react-bootstrap/Card";
 import Firstslide from "../assets/images/slide1.svg";
 // import Secondslide from "../assets/images/slide2.png";
+import Form from "react-bootstrap/Form";
 
 function Home() {
   return (
@@ -108,19 +109,19 @@ function Home() {
           </div>
 
           <div className="col-lg-6">
-            <form>
+            <Form>
               <div className="row justify-content-between align-items-center">
                 <div className="col-lg-6 my-2 ">
                   <input
                     type="text"
-                    className="form-control"
+                    className="form-control py-3"
                     placeholder="First Name"
                   />
                 </div>
                 <div className="col-lg-6 my-2">
                   <input
                     type="text"
-                    className="form-control"
+                    className="form-control py-3"
                     placeholder="Last Name"
                   />
                 </div>
@@ -129,24 +130,35 @@ function Home() {
               <div className="my-2">
                 <input
                   type="email"
-                  className="form-control"
+                  className="form-control py-3"
                   placeholder="Email"
                 />
               </div>
 
-              <div className="my-2">
-                <textarea
-                  type="textarea"
-                  name="message"
+              <Form.Group
+                className="my-2"
+                controlId="exampleForm.ControlTextarea1"
+              >
+                <Form.Control
+                  as="textarea"
                   placeholder="Enter your message here"
-                  className="form-control"
+                  rows={3}
+                  className="h-75"
+                />
+              </Form.Group>
+
+              <div className="my-3">
+                <Form.Check
+                  type={"checkbox"}
+                  id={"Check"}
+                  label={"Do you agree to our terms and services?"}
                 />
               </div>
 
               <div className="w-100">
-                <button className="btn btn-secondary w-100">Submit</button>
+                <button className="btn btn-secondary w-100 py-3">Submit</button>
               </div>
-            </form>
+            </Form>
           </div>
         </div>
       </div>

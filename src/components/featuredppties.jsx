@@ -39,6 +39,39 @@ function FeaturedPPties() {
           </Card.Text>
         </Card.Body>
       </Card>
+
+      <Card className="m-3" style={{ width: "20rem" }}>
+        <Card.Img variant="top" src={Featured} />
+        <Card.Body>
+          <Card.Title>Contemporary apartment</Card.Title>
+          <Card.Text className="d-flex justify-content-between">
+            <>Price:</>
+            <>$3,600/mo</>
+          </Card.Text>
+        </Card.Body>
+      </Card>
+
+      <Card className="m-3" style={{ width: "20rem" }}>
+        <Card.Img variant="top" src={Featured} />
+        <Card.Body>
+          <Card.Title>Contemporary apartment</Card.Title>
+          <Card.Text className="d-flex justify-content-between">
+            <>Price:</>
+            <>$3,600/mo</>
+          </Card.Text>
+        </Card.Body>
+      </Card>
+
+      <Card className="m-3" style={{ width: "20rem" }}>
+        <Card.Img variant="top" src={Featured} />
+        <Card.Body>
+          <Card.Title>Contemporary apartment</Card.Title>
+          <Card.Text className="d-flex justify-content-between">
+            <>Price:</>
+            <>$3,600/mo</>
+          </Card.Text>
+        </Card.Body>
+      </Card>
     </div>
   );
 }
