@@ -1,7 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import Firstslide from "../assets/images/slide1.svg";
 import Secondslide from "../assets/images/slide2.png";
-import Thirdslide from "../assets/images/slide3.jfif";
+import Thirdslide from "../assets/images/slide3.jpg";
 import Forthslide from "../assets/images/slide4.jpg";
 import Fifthslide from "../assets/images/slide5.jpg";
 
