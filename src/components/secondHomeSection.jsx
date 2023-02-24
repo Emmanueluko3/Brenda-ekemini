@@ -1,7 +1,5 @@
 import React from "react";
 import "../styles/home.css";
-// import Button from "./button";
-import Input from "./input";
 
 function Hsec2() {
   return (
