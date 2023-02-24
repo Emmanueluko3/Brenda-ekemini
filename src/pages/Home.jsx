@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import FeaturedPPties from "../components/featuredppties";
 import Hsec2 from "../components/secondHomeSection";
 import "../styles/home.css";
@@ -6,7 +5,6 @@ import News from "../assets/images/news.png";
 import ControlledCarousel from "../components/slides";
 import Card from "react-bootstrap/Card";
 import Firstslide from "../assets/images/slide1.svg";
-// import Secondslide from "../assets/images/slide2.png";
 import Form from "react-bootstrap/Form";
 
 function Home() {

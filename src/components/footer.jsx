@@ -26,7 +26,7 @@ function Footer() {
               </div>
               <div className="py-">
                 <p>
-                  <i className="fa-regular fa-copyright me-1"></i>2022 Metabnb
+                  <i className="fa-regular fa-copyright me-1"></i>2023 Citadel
                 </p>
               </div>
             </div>
@@ -34,11 +34,6 @@ function Footer() {
               <a href="#" className="nav-link">
                 <h4 className="fw-semibold">Community</h4>
               </a>
-              <div className="py-1">
-                <a href="#" className="nav-link">
-                  Tokens
-                </a>
-              </div>
               <div className="py-1">
                 <a href="#" className="nav-link">
                   Landlord

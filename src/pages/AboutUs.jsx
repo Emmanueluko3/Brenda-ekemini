@@ -1,7 +1,10 @@
 import React from "react";
+
 import Idea from "../assets/images/blackidea.png";
 import Mission from "../assets/images/Mission.png";
 import Team1 from "../assets/images/team1.jpg";
+// import Team2 from "../assets/images/justin.png";
+import Team4 from "../assets/images/buhari.jpg";
 
 function AboutUs() {
   const team = [
@@ -11,7 +14,7 @@ function AboutUs() {
       occupation: "CEO/Founder",
     },
     {
-      img: Team1,
+      img: Team4,
       name: "Mr. Justine",
       occupation: "Real Estate Investor",
     },
@@ -21,7 +24,7 @@ function AboutUs() {
       occupation: "Real Estate Investor",
     },
     {
-      img: Team1,
+      img: Team4,
       name: "Muhammedu Buhari",
       occupation: "Real Estate Investor",
     },
@@ -32,7 +35,11 @@ function AboutUs() {
       key={index}
       className="col-lg-3 bg-white border-0 card p-3 justify-content-center align-items-center"
     >
-      <img src={item.img} className="img-fluid img-thumbnail" alt="" />
+      <img
+        src={item.img}
+        className="img-fluid img-thumbnail cus-height"
+        alt=""
+      />
       <h3 className="fs-5 text-success">{item.name}</h3>
       <h6 className="text-secondary-emphasis">{item.occupation}</h6>
     </div>
