@@ -1,14 +1,15 @@
 import Carousel from "react-bootstrap/Carousel";
 import Firstslide from "../assets/images/slide1.svg";
 import Secondslide from "../assets/images/slide2.png";
-import Thirdslide from "../assets/images/slide3.jpg";
+// import Thirdslide from "../assets/images/slide3.jpg";
 import Forthslide from "../assets/images/slide4.jpg";
 import Fifthslide from "../assets/images/slide5.jpg";
+import Viewprop from "../assets/images/viewprops.jfif";
 
 function CarouselFadeExample() {
   const carousels = [
     {
-      background: Firstslide,
+      background: Viewprop,
       title: "Put your First label here",
       body: "Explain the body in details here",
     },
@@ -18,7 +19,7 @@ function CarouselFadeExample() {
       body: "Explain the body in details here",
     },
     {
-      background: Thirdslide,
+      background: Firstslide,
       title: "Put your Second label here",
       body: "Explain the body in details here",
     },
