@@ -3,34 +3,14 @@
     color: #fff;
 }
 
-.footer{
-    margin: auto;
-    width: 90%;
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: space-around;
-    align-items: center;
-}
-
-.footer .logo img{
+.cus-img{
     width: 100px;
     height: 100px;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 
 .footer .logo{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.footer .down-path{
-    order: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer .down-path img{
-    margin: 15px;
 }
