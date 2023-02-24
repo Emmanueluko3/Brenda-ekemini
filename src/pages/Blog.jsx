@@ -46,7 +46,9 @@ function Blog() {
                   <p>0</p>
                 </div>
                 <div className="d-flex">
-                  <button className="btn btn-sm btn-success">Read More</button>
+                  <button className="btn btn-sm btn-secondary">
+                    Read More
+                  </button>
                 </div>
               </div>
             </div>
@@ -62,7 +64,7 @@ function Blog() {
                   className="me-2"
                   aria-label="Search"
                 />
-                <Button variant="outline-success">Search</Button>
+                <Button variant="outline-secondary">Search</Button>
               </Form>
             </div>
             <div className="card p-3 my-2">

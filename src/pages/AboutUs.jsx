@@ -81,10 +81,10 @@ function AboutUs() {
               forward to working with you and helping you find the perfect
               property to call home.
             </p>
-            <button className="btn btn-success w-25">Get Started</button>
+            <button className="btn btn-secondary w-25">Get Started</button>
           </div>
         </div>
-        <div className="bg-success row py-3 w-100">
+        <div className="cus-bg-2 row py-3 w-100">
           <div className="col-sm-4 col-lg-4 d-flex flex-column align-items-center justify-content-center text-white">
             <h2 className="fs-1 fw-bold">1032+</h2>
             <h6 className="fs-5 fw-bold">Clients</h6>
@@ -116,7 +116,7 @@ function AboutUs() {
                   for excellence and innovation, and to exceed our clients'
                   expectations in every aspect of their real estate experience.
                 </p>
-                <div className="btn btn-success">Contact Us</div>
+                <div className="btn btn-secondary">Contact Us</div>
               </div>
             </div>
           </div>
@@ -145,7 +145,7 @@ function AboutUs() {
                   technologies and tools to enhance their real estate
                   experience.
                 </p>
-                <div className="btn btn-success">Contact Us</div>
+                <div className="btn btn-secondary">Contact Us</div>
               </div>
             </div>
           </div>
