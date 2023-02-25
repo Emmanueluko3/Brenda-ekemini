@@ -2,6 +2,8 @@ import React from "react";
 import "../styles/footer.css";
 import Logo from "../assets/images/citadel.svg";
 import { Link } from "react-router-dom";
+import { faCopyright } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer() {
   return (
@@ -15,7 +17,7 @@ function Footer() {
               </Link>
               <div className="mt-5 pt-5 d-flex">
                 <a href="#" className="nav-link px-2">
-                  <i className="fa-brands fa-facebook-f"></i>
+                  {/* <FontAwesomeIcon icon={faFacebook} /> */}
                 </a>
                 <a href="#" className="nav-link px-2">
                   <i className="fa-brands fa-instagram"></i>
@@ -26,7 +28,7 @@ function Footer() {
               </div>
               <div className="py-">
                 <p>
-                  <i className="fa-regular fa-copyright me-1"></i>2023 Citadel
+                  <FontAwesomeIcon icon={faCopyright} /> 2023 Citadel
                 </p>
               </div>
             </div>

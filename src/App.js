@@ -9,6 +9,7 @@ import Blog from './pages/Blog';
 import ContactUs from './pages/ContactUs';
 import Footer from './components/footer';
 import Error from './pages/error';
+import Viewproperty from './components/viewProfile';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path="/about" element={<AboutUs />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<ContactUs />} />
+            <Route path="/viewproperty" element={<Viewproperty />} />
             <Route path='*' element={<Error />} />
           </Routes>
           <Footer />
